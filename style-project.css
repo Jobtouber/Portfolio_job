@@ -68,34 +68,34 @@ body {
     grid-area: media;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-auto-columns: 1fr;
-    gap: 10px 0px;
+    gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "titel titel titel"
       "technowire p1 p2"
       "p3 p4 p5";
   }
   
-  .titel {
-    grid-area: titel;
-    text-align: center;
-  }
-
-  .titel h1{
-    color: #ffffff;
-  }
   .technowire {
     grid-area: technowire;
+    text-align: center;
+    border-bottom: 2px solid #0992e3 ;
+    margin-top: 2em;
+  }
+  
+  .technowire p{
+    color: #ffffff;
   }
   
   .p1 {
     grid-area: p1;
+    border-bottom: 2px solid #0992e3 ;
   }
   
   .p2 {
     grid-area: p2;
+    border-bottom: 2px solid #0992e3 ;
   }
   
   .p3 {

@@ -64,6 +64,32 @@ body {
   width: 100%;
 }
 
+.media {
+  grid-area: media;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.7fr 0.3fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "info"
+    "contact";
+}
+
+.info {
+  grid-area: info;
+  color: #ffffff;
+  margin: 4em 0 6em 7em;
+  max-width: 30em;
+}
+
+.contact {
+  grid-area: contact;
+  color: #ffffff;
+  margin-left: 7em;
+}
+
 
 .hamburger-menu {
   display: none;
